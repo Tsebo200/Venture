@@ -2,8 +2,9 @@
 //Please only use the following elements in any Venture document, styles have been laid out in order to keep consistency throughout any project
 //These have been laid out as variables so that developers may refer to the document at any point during the development process.
 // If there are any queries regarding the creation of components, please refer to the design system that has been laid out.
-// Colours
 
+
+// Colours
 
 //Primary
 $primary: #074BA4;
@@ -57,7 +58,7 @@ $secondaryType: 'Roboto', sans-serif;
     letter-spacing: 2%;
 }
 
-@mixin headingThree {
+@mixin headingFour {
     font-family: $secondaryType;
     font-weight: 800;
     font-size: 36px;
@@ -81,3 +82,49 @@ $secondaryType: 'Roboto', sans-serif;
     -webkit-box-shadow: 16px 8px 38px -12px rgba(0, 0, 0, 0.19);
     -moz-box-shadow: 16px 8px 38px -12px rgba(0, 0, 0, 0.19);
 }
+
+//Checkboxes Unselected 
+
+@mixin unchecked {
+    width: 42px;
+    height: 42px;
+    border: 3px solid #074BA4;
+    border-radius: 10.26px;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.16);
+}
+
+// @mixin uncheckedFocussed {
+//     width: 42px;
+//     height: 42px;
+//     // background: transparent;
+//     background: #7CA2D5;
+//     border: 3px solid #074BA4;
+//     border-radius: 10.26px;
+//     box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.16);
+// }
+
+@mixin uncheckedDisabled {
+    width: 42px;
+    height: 42px;
+    border-radius: 10.26px;
+    border: 3px solid rgba(174, 194, 221, 1);
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.16);
+}
+
+//Checkboxes Ticked
+@mixin ticked {
+    width: 42px;
+    height: 42px;
+    background: #074BA4;
+    border-radius: 10.26px;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.16);
+}
+
+@mixin tickedDisabled {
+    width: 42px;
+    height: 42px;
+    background: #7CA2D5;
+    border-radius: 10.26px;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.16);
+}
+
