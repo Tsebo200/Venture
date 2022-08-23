@@ -1,0 +1,83 @@
+//!IMPORTANT NOTICE
+//Please only use the following elements in any Venture document, styles have been laid out in order to keep consistency throughout any project
+//These have been laid out as variables so that developers may refer to the document at any point during the development process.
+// If there are any queries regarding the creation of components, please refer to the design system that has been laid out.
+// Colours
+
+
+//Primary
+$primary: #074BA4;
+$primaryShadeOne: #337AC0;
+$primaryShadeTwo: #7CA2D5;
+$primaryShadeThree: #BDD3EA;
+
+//Secondary
+$Secondary: #CF5B73;
+$borderRadius: 8px;
+
+//Tertiary
+$TertiaryYellow: #FDC976;
+$TertiaryBlue: #1798AD;
+
+//System Colours
+$warning: #FE132E;
+$success: #47B626;
+
+//Text Color
+$BlackText: #222526;
+$WhiteText: #FFFF;
+
+//Text
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+$primaryType: 'Raleway', sans-serif;
+$secondaryType: 'Roboto', sans-serif;
+;
+
+//headings
+
+@mixin headingOne {
+    font-family: $secondaryType;
+    font-weight: 800;
+    font-size: 85px;
+    letter-spacing: 2%;
+}
+
+@mixin headingTwo {
+    font-family: $secondaryType;
+    font-weight: 800;
+    font-size: 64px;
+    letter-spacing: 2%;
+}
+
+@mixin headingThree {
+    font-family: $secondaryType;
+    font-weight: 800;
+    font-size: 48px;
+    letter-spacing: 2%;
+}
+
+@mixin headingThree {
+    font-family: $secondaryType;
+    font-weight: 800;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+
+@mixin bodyCopy {
+    font-family: $primaryType;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@mixin secondaryText {
+    font-family: $primaryType;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@mixin dropShadow {
+    box-shadow: 16px 8px 38px -12px rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 16px 8px 38px -12px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 16px 8px 38px -12px rgba(0, 0, 0, 0.19);
+}
