@@ -21,7 +21,8 @@
 <p align="center">
 
   <a href="https://github.com/Tsebo200/Venture">
-    [<img src="assets/Logo.png" style="padding-top: -700px" alt="../src/Assets/Logo\ 2.png" width="740" height="740">]
+  <div>Mark Down</div><div style=magin-top:-300px;>
+    <img src="assets/Logo.png" style="padding-bottom: -700px" alt="../src/Assets/Logo\ 2.png" width="740" height="740">
   </a>
   
   <img src="assets/Members.png" align="center" alt="../src/Assets/Logo\ 2.png" width="962" height="59">
