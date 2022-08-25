@@ -148,7 +148,7 @@ This is the skeuomorphic design on one of my component containers
 ## Authors
 
 * **Tsebo Ramonyalioa** - [Tsebo200](https://github.com/Tsebo200)
-* **Leander van Aarde** - [Leander](https://github.com/search?q=LeandervanAarde)
+* **Leander van Aarde** - [Leander](https://github.com/LeandervanAarde)
 * **Jessica van der Walt** - [Jess](mailto:200006@virtualwindow.co.za)
 * **Bedelia-Jade Piek** - [Jade](mailto:21100443@virtualwindow.co.za)
 
