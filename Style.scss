@@ -88,20 +88,21 @@ $secondaryType: 'Roboto', sans-serif;
 @mixin unchecked {
     width: 42px;
     height: 42px;
+    background: #FFFFFF;
     border: 3px solid #074BA4;
     border-radius: 10.26px;
     box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.16);
 }
 
-// @mixin uncheckedFocussed {
-//     width: 42px;
-//     height: 42px;
-//     // background: transparent;
-//     background: #7CA2D5;
-//     border: 3px solid #074BA4;
-//     border-radius: 10.26px;
-//     box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.16);
-// }
+@mixin uncheckedFocussed {
+    width: 42px;
+    height: 42px;
+    // background: transparent;
+    background: #7CA2D5;
+    border: 3px solid #074BA4;
+    border-radius: 10.26px;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.16);
+}
 
 @mixin uncheckedDisabled {
     width: 42px;
@@ -128,3 +129,197 @@ $secondaryType: 'Roboto', sans-serif;
     box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.16);
 }
 
+//Radio Buttons
+
+@mixin notToggled {
+    width: 42px;
+    height: 42px;
+    border: 3px solid #074BA4;
+    border-radius: 20px;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.16);
+}
+
+//Toggled Radio buttons has two divs
+
+@mixin toggledOutline {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    border: 3px solid #074BA4;
+    border-radius: 20px;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.16);
+
+    @mixin toggledInside {
+        position: absolute;
+        width: 29.93px;
+        height: 29.93px;
+        top: 6.04px;
+        left: 6.04px;
+        border-radius: 20px;
+        background: #074BA4;
+    }
+}
+
+
+
+//Buttons
+
+// Light Mode
+@mixin primaryLightButton{
+    width: 141px;
+    height: 52px;
+    border-radius: 10.2558px;
+    box-shadow: 1.96226px 0.981132px 3.92453px rgba(0, 0, 0, 0.16);
+    background: #FCCA79;
+    //Text Styling
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #074BA4;
+}
+
+//Alternatively if you want them separate
+//But will need toi adjust the top and left of the primaryButtonText
+@mixin primaryLightButtonShape{
+    position: relative;
+    width: 141px;
+    height: 52px;
+    border-radius: 10.2558px;
+    box-shadow: 1.96226px 0.981132px 3.92453px rgba(0, 0, 0, 0.16);
+    background: #FCCA79;
+    
+    @mixin primaryLightButtonText{
+        position: absolute;
+        top: 16.5px;
+        left: 40.5px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #074BA4;
+    }
+}
+
+
+
+//Secondary Button
+@mixin secondaryLightButton{
+    width: 141px;
+    height: 52px;
+    border: 3px solid #337AC0;
+    border-radius: 10.2558px;
+    //Text Styling
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #337AC0;
+}
+
+//Dark Mode Buttons
+@mixin primaryDarkButton{
+    width: 141px;
+    height: 52px;
+    background: #074BA4;
+    border-radius: 10.2558px;   
+    //Text Styling 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@mixin secondaryDarkButton{
+    width: 141px;
+    height: 52px;
+    border: 3px solid #FCCA79;
+    border-radius: 10.2558px;   
+    //Text Styling 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FCCA79;
+}
+
+//Toggles
+//Each state is split into two divs 
+//Off State
+@mixin toggleOffContainer{
+    width: 91.45px;
+    height: 46.29px;    
+    border: 3px solid #074BA4;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 23.1438px;
+
+    @mixin toggleOffDot{
+        width: 37.22px;
+        height: 37.22px; 
+        border-radius: 100%; 
+        background: #7CA2D5;
+    }
+}
+
+//On State
+@mixin toggleOnContainer{
+    width: 91.45px;
+    height: 46.29px;
+    background: #BDD3EA;
+    border: 3px solid #074BA4;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 23.1438px;
+
+    @mixin toggleOnDot{
+        width: 37.22px;
+        height: 37.22px; 
+        border-radius: 100%; 
+        background: #074BA4;
+    }
+}
+
+//Text Field
+
+@mixin textField{
+    position: relative;
+    width: 370px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 3px solid #337AC0;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 10.2558px;
+
+    @mixin text{
+    position: absolute;
+    left: 6px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #B0B0B0;
+    }
+}
