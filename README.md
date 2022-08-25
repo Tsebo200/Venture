@@ -24,7 +24,7 @@
     <img src="assets/Logo.png" style="padding-bottom: -700px" align="center alt="../src/Assets/Logo\ 2.png" width="740" height="740">
   </a>
   
-  <img src="assets/Members.png" align="center" alt="../src/Assets/Logo\ 2.png" width="952" height="49">
+  <img src="assets/Members.png" align="center" alt="../src/Assets/Logo\ 2.png" width="942" height="39">
   <!-- <h3 align="center">Venture</h3> -->
 
   <p align="center">
