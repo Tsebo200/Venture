@@ -104,7 +104,7 @@ This is an SCSS file with the UI and general Design theme of Venture. To get the
 <!-- here you will add things like wireframing, data structure planning, anything that shows your process. You need to include images-->
 ## Concept Process
 
-The `Conceptual Process` is the set of actions, activities and research that was done when starting this project. As part of our conceptual process we began by making sketches and looked at inspiration from the web. 
+The `Conceptual Process` is the set of actions, activities and research that was done when starting this project. As part of our conceptual process we began by making sketches and looked at inspiration from the web. We then created the Branding (Venture), Foundation UI (such as colour, typography, grid layout and Iconography) then we wrapped it up by creating Components that were based off the Foundation UI. We followed an atomatic design process when creating the system.
 <br>
 
 ### Custom UI
