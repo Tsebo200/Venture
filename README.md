@@ -21,9 +21,9 @@
 <p align="center">
 
   <a href="https://github.com/Tsebo200/Venture">
-    <img src="assets/Logo2.png"  align="center" alt="../src/Assets/Logo\ 2.png" width="681" height="257">
+    <img src="assets/Logo2.png"  align="center" alt="../src/Assets/Logo\ 2.png" width="631" height="207">
   </a>
-  
+  <br>
   <img src="assets/Members.png" align="center" alt="../src/Assets/Logo\ 2.png" width="952" height="49">
   <!-- <h3 align="center">Venture</h3> -->
 
