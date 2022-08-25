@@ -21,7 +21,7 @@
 <p align="center">
 
   <a href="https://github.com/Tsebo200/Venture">
-    <img src="assets/Logo.png" align="center" alt="../src/Assets/Logo\ 2.png" width="340" height="340">
+    <img src="assets/Logo.png" align="center" alt="../src/Assets/Logo\ 2.png" width="740" height="740">
   </a>
   
   <img src="assets/Members.png" align="center" alt="../src/Assets/Logo\ 2.png" width="962" height="59">
