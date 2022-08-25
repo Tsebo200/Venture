@@ -21,10 +21,10 @@
 <p align="center">
 
   <a href="https://github.com/Tsebo200/Venture">
-    <img src="assets/Logo.png" align="center" alt="../src/Assets/Logo\ 2.png" width="140" height="140">
+    <img src="assets/Logo.png" align="center" alt="../src/Assets/Logo\ 2.png" width="340" height="340">
   </a>
   
-  <img src="assets/Members.png" align="center" alt="../src/Assets/Logo\ 2.png" width="140" height="140">
+  <img src="assets/Members.png" align="center" alt="../src/Assets/Logo\ 2.png" width="962" height="59">
   <!-- <h3 align="center">Paculator</h3> -->
 
   <p align="center">
