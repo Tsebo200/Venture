@@ -9,7 +9,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Tsebo200/Venture)
 ![Github Language](https://img.shields.io/github/languages/top/Tsebo200/Venture)
 ![Github Downloads](https://img.shields.io/github/downloads/Tsebo200/Venture/total)
-<!-- ![Github node Version](https://img.shields.io/node/v/Paculator) -->
+<!-- ![Github node Version](https://img.shields.io/node/v/Venture) -->
 
 
 <!-- HEADER SECTION -->
@@ -25,7 +25,7 @@
   </a>
   
   <img src="assets/Members.png" align="center" alt="../src/Assets/Logo\ 2.png" width="970" height="59">
-  <!-- <h3 align="center">Paculator</h3> -->
+  <!-- <h3 align="center">Venture</h3> -->
 
   <p align="center">
     We were assigned to create a Design Systems for an event hoster or manager<br>
@@ -81,12 +81,12 @@ The following instructions will get you a copy of the project up and running on 
 Here are a couple of ways to clone this repo:
 
 1. GitHub Desktop </br>
-Enter `https://github.com/Tsebo200/Paculator.git` into the URL field and press the `Clone` button.
+Enter `https://github.com/Tsebo200/Venture.git` into the URL field and press the `Clone` button.
 
 2. Clone Repository </br>
 Run the following in the command-line to clone the project:
    ```sh
-   git clone https://github.com/Tsebo200/Paculator.git
+   git clone https://github.com/Tsebo200/Venture.git
    ```
     Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
 
